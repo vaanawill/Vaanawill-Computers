@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Vaanawill Computers - Watch & Subscribe</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ff0000, #650000);
+      padding: 20px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 450px;
+      background: white;
+      border-radius: 25px;
+      padding: 40px 25px;
+      text-align: center;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+    }
+
+    .icon {
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      color: #222;
+      margin: 10px 0;
+      font-size: 30px;
+    }
+
+    h2 {
+      color: #ff0000;
+      margin: 5px 0 20px;
+      font-size: 20px;
+    }
+
+    p {
+      color: #666;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 17px;
+      margin: 15px 0;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .watch {
+      background: #ff0000;
+      color: white;
+    }
+
+    .subscribe {
+      background: #222;
+      color: white;
+    }
+
+    .btn:hover {
+      transform: scale(1.03);
+    }
+
+    .footer {
+      margin-top: 25px;
+      font-size: 13px;
+      color: #999;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <div class="icon">🎬</div>
+
+    <h1>Vaanawill Computers</h1>
+
+    <h2>Watch & Subscribe</h2>
+
+    <p>
+      எங்கள் புதிய வீடியோவை பாருங்கள்!<br>
+      எங்கள் YouTube சேனலை Subscribe செய்யுங்கள் ❤️
+    </p>
+
+    <a class="btn watch"
+       href="https://youtu.be/4VPKRBT8cog?si=TXOIfe3JR5-djWCT"
+       target="_blank">
+      ▶️ வீடியோ பார்க்க
+    </a>
+
+    <a class="btn subscribe"
+       href="https://youtube.com/@vaanawill2812?sub_confirmation=1"
+       target="_blank">
+      🔔 Subscribe செய்யுங்கள்
+    </a>
+
+    <div class="footer">
+      ❤️ உங்கள் ஆதரவுக்கு நன்றி!
+    </div>
+
+  </div>
+
+</body>
+</html>
